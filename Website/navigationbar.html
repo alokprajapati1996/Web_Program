@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nav tag</title>
+        <style>
+            .a{
+                text-decoration: none;
+                color:green;
+                font-size: 20px;
+                padding: 20px;
+            }
+            ul li:hover ul {display: block;
+            }
+            ul li:hover{
+                background: #383838;
+                color: #fff;
+
+            }
+            nav{
+                background-color: cornflowerblue;
+            }
+            nav ul{
+                padding: auto;
+                margin: 0;
+                list-style: none;
+            }
+            nav ul li{ 
+                font:bold 15px;
+                display: inline;
+                position: relativ;
+                padding: 15px 50px;
+                color:#fff;
+
+            }
+            ul li ul{padding: 0;
+position: absolute;
+top: 44px;
+left: 0;
+width: 150px;
+display: none;
+}
+ul li ul li {
+background: #383838;
+display: block;
+color: #fff;
+}
+ul li ul li:hover {
+background: #272423;
+}
+
+
+ul li ul li a{
+color: #fff;
+text-decoration: none;
+display: block;
+}
+
+            
+
+        </style>
+    </head>
+    <body><h1><Example nav bar tag </h1>
+        <nav><ul><li>
+            Home
+        </li>
+        <li>About</li>
+    <li>Service  <ul>
+        <li><a herf="#">Webdesisn</a></li>
+        <li><a herf="#">Course</a></li>
+        <li><a herf="#">web devlopment/a></li>
+    </ul></li>
+
+<li>Article <ul> 
+    <li><a herf="#">Course</a></li>
+    <li><a herf="#">Course</a></li>
+</ul></li>
+<li>Contect</li>
+<li>Course</li>
+<li>Help</li>
+</ul>
+</nav>
+    
+
+            
+        </nav>
+    </body>
+</html>
